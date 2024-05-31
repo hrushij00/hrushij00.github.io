@@ -6,10 +6,6 @@ body {
     overflow-x: hidden;
 }
 
-h1 {
-    color : blue;
-}
-
 :root {
     --black: #151515;
     --green: #4ee1a0;
@@ -30,6 +26,7 @@ h1 {
     margin: 0 auto;
     padding: 0 2rem;
     color: white;
+    font-size: 32px;
 }
 
 .container2 {
