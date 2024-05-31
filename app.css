@@ -3,10 +3,78 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 h1 {
     color : blue;
+}
+
+:root {
+    --black: #151515;
+    --green: #4ee1a0;
+    --dark: #242424;
+    --grey: #d9d9d9;
+    --white: #ffffff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* ============Utality Classes ============== */
+
+.contact span {
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+    position: relative;
+}
+
+.contact span::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    background-color: green;
+    height: 2px;
+    bottom: -10px;
+}
+
+.contact span:hover {
+    color: green;
+}
+
+.heading {
+    font-size: 3rem;
+    color: white;
+}
+
+/*============navbar============*/
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 2rem 0;
+    z-index: 10;
+}
+
+nav .logo {
+    font-size: 1.2rem;
+}
+
+nav .social_icons img {
+    width: 25%;
+    padding-left: 15px;
 }
 
 .roboto-thin {
