@@ -114,7 +114,30 @@ header .left .name span::before {
 
 header .left .about {
     color: grey;
-    width: 50%
+    width: 50%;
+    margin: 2rem 0;
+    line-height: 1.7;
+    font-size: 1.2rem;
+}
+
+header .right {
+    width: 30%;
+    z-index: -1;
+    position: relative;
+}
+
+header .right .profile_img img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transform: translateY(-12%);
+}
+
+header.right > img {
+    position: absolute;
+    object-fit: cover;
+    top: 70%;
+    transform: translate(-50%, -50%);
 }
 
 .roboto-thin {
