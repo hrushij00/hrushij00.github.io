@@ -83,6 +83,40 @@ nav .social_icons img {
     padding-left: 15px;
 }
 
+/*===========showcase============*/
+header {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+header .left h2 {
+    font-size: 5rem;
+    letter-spacing: 5px;
+    color: white;
+}
+
+header .left .name span {
+    position: relative;
+}
+
+header .left .name span::before {
+    position: absolute;
+    width: 100%;
+    content: "";
+    background-color: green;
+    height: 5px;
+    bottom: 0;
+}
+
+header .left .about {
+    color: grey;
+    width: 50%
+}
+
 .roboto-thin {
     font-family: "Roboto", sans-serif;
     font-weight: 100;
