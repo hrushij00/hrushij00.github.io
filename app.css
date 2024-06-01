@@ -127,10 +127,10 @@ header .right {
 }
 
 header .right .profile_img img{
-    width: 150%;
+    width: 125%;
     height: auto;
     object-fit: cover;
-    transform: translateY(-12%);
+    transform: translateY(12%);
 }
 
 header.right > img {
