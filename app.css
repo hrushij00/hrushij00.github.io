@@ -137,7 +137,7 @@ header.right > img {
     position: absolute;
     object-fit: cover;
     top: 70%;
-    transform: translate(-35%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .roboto-thin {
